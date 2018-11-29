@@ -1,0 +1,37 @@
+{
+  "name": "ethanzway/omnipay-yeepay",
+  "type": "library",
+  "description": "Yeepay gateway for Omnipay payment processing library",
+  "keywords": [
+    "yeepay",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "purchase"
+  ],
+  "homepage": "https://github.com/ethanzway/omnipay-yeepay",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ethan"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Yeepay\\": "src/"
+    },
+    "files": [
+      "src/Common/helpers.php"
+    ]
+  },
+  "require": {
+    "omnipay/common": "^3.0",
+    "php-http/guzzle6-adapter": "*"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3.0",
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}
