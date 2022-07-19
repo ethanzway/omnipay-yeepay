@@ -4,16 +4,8 @@ namespace Omnipay\Yeepay\Common;
 
 use Exception;
 
-/**
- * Sign Tool for Yeepay
- * Class Signer
- * @package Omnipay\Yeepay\Common
- */
 class Signer
 {
-    /**
-     * @var array
-     */
     private $params;
 
     public function __construct(array $params = [])

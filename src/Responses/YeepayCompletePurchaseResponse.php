@@ -7,10 +7,6 @@ use Omnipay\Common\Message\AbstractResponse;
 
 class YeepayCompletePurchaseResponse extends AbstractResponse
 {
-
-    /**
-     * @var YeepayCompletePurchaseRequest
-     */
     protected $request;
 
     public function getResponseText()

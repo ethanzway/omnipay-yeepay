@@ -8,7 +8,6 @@ use Omnipay\Yeepay\Requests\YeepayCompletePurchaseRequest;
 
 class Gateway extends AbstractGateway
 {
-
     public function getName()
     {
         return 'Yeepay Gateway';

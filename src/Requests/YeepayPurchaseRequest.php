@@ -8,10 +8,6 @@ use Omnipay\Common\Message\AbstractRequest;
 use Omnipay\Common\Message\ResponseInterface;
 use Omnipay\Common\Exception\InvalidRequestException;
 
-/**
- * Class YeepayPurchaseRequest
- * @package Omnipay\Yeepay\Requests
- */
 class YeepayPurchaseRequest extends AbstractRequest
 {
     protected $reqURL_onLine = "https://www.yeepay.com/app-merchant-proxy/node";
